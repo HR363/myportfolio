@@ -225,6 +225,24 @@
             width: 100%;
         }
 
+        .resume-btn {
+            background: var(--primary);
+            color: var(--light) !important;
+            padding: 0.6rem 1.2rem !important;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .resume-btn:hover {
+            background: #ff1a53;
+            transform: translateY(-2px);
+        }
+
+        .resume-btn::after {
+            display: none !important;
+        }
+
         /* About Section */
         .about {
             min-height: 100vh;
@@ -974,6 +992,7 @@
             <li><a href="#experience">Experience</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="assets/HARRISON NJUGUNA.pdf" class="resume-btn" target="_blank">Resume</a></li>
         </ul>
     </nav>
 
